@@ -9,12 +9,24 @@ public class model{
     private boolean Cadastrado;
     
     public model(){
-        this.setLogado(0);   
+        this.setLogado(0);
+        this.setCadastrado(false);
     }
 
     public model(String Nome, int Idade){
         this.Nome = Nome;
         this.Idade = Idade;
+        this.setLogado(0);
+        this.setCadastrado(false);
+    }
+
+    public void cadastrar(){
+       this.setCadastrado(true);
+    }
+
+    public void removeAccount(){
+       this.setCadastrado(false); 
+       this.setLogado(0);
     }
 
     public void logar(int val){
