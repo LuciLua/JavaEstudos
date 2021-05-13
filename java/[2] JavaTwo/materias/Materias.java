@@ -1,6 +1,6 @@
-package JavaTwo.materias;
+package materias;
 
-import JavaTwo.model.mat;
+import model.mat;
 
 public class Materias{
 

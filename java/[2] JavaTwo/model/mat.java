@@ -1,4 +1,4 @@
-package JavaTwo.model;
+package model;
 
 public class mat{
     
