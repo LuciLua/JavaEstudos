@@ -1,6 +1,6 @@
-package JavaOne.model;
+package Model;
 
-public class Carro{
+public class Carro {
     
     private String Marca;
     private String Modelo;

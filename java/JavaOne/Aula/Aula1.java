@@ -1,8 +1,7 @@
-package JavaOne.Aula;
+package Aula;
+import Model.Carro;
 
-import JavaOne.model.Carro;
-
-public class Aula {
+public class Aula1 {
 
     public static void main(String[] args){
 
@@ -26,10 +25,10 @@ public class Aula {
 
         // imprimindo...
 
-        System.out.println(carro2.getAno() + carro2.getMarca());
+        System.out.println( "Ano de Fabricação: " + carro2.getAno() + "\n Marca: " +  carro2.getMarca());
         
-        System.out.println(carro1.getAno() + carro1.getMarca());
+        System.out.println("Ano de Fabricação: " + carro1.getAno() + "\n Marca: " + carro1.getMarca());
 
-        System.out.println(carro1.getNumPorta());
+        System.out.println("\n número de portas: " + carro1.getNumPorta());
     }
 }
