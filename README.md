@@ -1,4 +1,4 @@
-☕ Repository for my Java studies ☕
+## ☕ Repository for my Java studies ☕
 
-Experiments, classes and projects
+### Experiments, classes and projects
  
